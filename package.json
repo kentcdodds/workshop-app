@@ -1,0 +1,22 @@
+{
+  "name": "workshop-app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0",
+    "react-scripts": "0.8.4"
+  },
+  "dependencies": {
+    "marked": "^0.3.6",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "strip-indent": "^2.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "storybook": "start-storybook -p 9009 -s public --dont-track",
+    "build-storybook": "build-storybook -s public"
+  }
+}

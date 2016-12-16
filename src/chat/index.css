@@ -1,0 +1,21 @@
+.markdown p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.markdown code {
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 0.9em;
+}
+
+.markdown pre {
+  padding: 20px;
+  margin: 10px 0;
+  background-color: rgba(0,0,0,0.04);
+}
+
+.markdown pre code {
+  background-color: transparent;
+}
